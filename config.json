@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Claude Willan",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "Locke\u0027s Ego-Network",
+    "more": "This graph shows the central hub of Locke\u0027s correspondence network. I have filtered the group to include only nodes with a degree of one or higher. This means that those correspondents of Locke\u0027s who knew none other of his correspondents (roughly 40%) are not represented here.\nNode size and redness represent \"degree\"; the number of connections each node has.",
+    "intro": "This graph shows the central hub of Locke\u0027s correspondence network. "
+  },
+  "legend": {
+    "edgeLabel": "Connections",
+    "colorLabel": "Degree",
+    "nodeLabel": "Locke\u0027s correspondents"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "FRS",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
